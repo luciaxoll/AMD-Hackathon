@@ -1,0 +1,3568 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SARIF Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1, h2 { color: #333; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+        table, th, td { border: 1px solid #ddd; }
+        th, td { padding: 8px; text-align: left; }
+        th { background-color: #f4f4f4; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+    </style>
+</head>
+<body>
+    <h1>SARIF Report</h1>
+    <h2>Commit:
+        <a href="https://github.com/tensorflow/tensorflow/commit/d25dd807485c">#d25dd807485c</a>
+    </h2>
+    <h2>Tool Information</h2>
+    <p><strong>Name:</strong> CodeQL</p>
+    <p><strong>Organization:</strong> GitHub</p>
+    <p><strong>Semantic Version:</strong> 2.16.6</p>
+
+    <h2>Notifications</h2>
+    
+    <table>
+        <tr><th>ID</th><td>py/diagnostics/successfully-extracted-files</td></tr>
+        <tr><th>Name</th><td>py/diagnostics/successfully-extracted-files</td></tr>
+        <tr><th>Short Description</th><td>Extracted Python files</td></tr>
+        <tr><th>Full Description</th><td>Lists all Python files in the source code directory that were extracted.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                successfully-extracted-files
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Lists all Python files in the source code directory that were extracted.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/diagnostics/successfully-extracted-files
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                diagnostic
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Extracted Python files
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/diagnostics/extraction-warnings</td></tr>
+        <tr><th>Name</th><td>py/diagnostics/extraction-warnings</td></tr>
+        <tr><th>Short Description</th><td>Python extraction warnings</td></tr>
+        <tr><th>Full Description</th><td>List all extraction warnings for Python files in the source code directory.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                List all extraction warnings for Python files in the source code directory.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/diagnostics/extraction-warnings
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                diagnostic
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Python extraction warnings
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>cs/baseline/expected-extracted-files</td></tr>
+        <tr><th>Name</th><td>cs/baseline/expected-extracted-files</td></tr>
+        <tr><th>Short Description</th><td>Expected extracted files</td></tr>
+        <tr><th>Full Description</th><td>Files appearing in the source archive that are expected to be extracted.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                expected-extracted-files, telemetry
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>cpp/baseline/expected-extracted-files</td></tr>
+        <tr><th>Name</th><td>cpp/baseline/expected-extracted-files</td></tr>
+        <tr><th>Short Description</th><td>Expected extracted files</td></tr>
+        <tr><th>Full Description</th><td>Files appearing in the source archive that are expected to be extracted.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                expected-extracted-files, telemetry
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>java/baseline/expected-extracted-files</td></tr>
+        <tr><th>Name</th><td>java/baseline/expected-extracted-files</td></tr>
+        <tr><th>Short Description</th><td>Expected extracted files</td></tr>
+        <tr><th>Full Description</th><td>Files appearing in the source archive that are expected to be extracted.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                expected-extracted-files, telemetry
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>go/baseline/expected-extracted-files</td></tr>
+        <tr><th>Name</th><td>go/baseline/expected-extracted-files</td></tr>
+        <tr><th>Short Description</th><td>Expected extracted files</td></tr>
+        <tr><th>Full Description</th><td>Files appearing in the source archive that are expected to be extracted.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                expected-extracted-files, telemetry
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/baseline/expected-extracted-files</td></tr>
+        <tr><th>Name</th><td>py/baseline/expected-extracted-files</td></tr>
+        <tr><th>Short Description</th><td>Expected extracted files</td></tr>
+        <tr><th>Full Description</th><td>Files appearing in the source archive that are expected to be extracted.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                expected-extracted-files, telemetry
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>swift/baseline/expected-extracted-files</td></tr>
+        <tr><th>Name</th><td>swift/baseline/expected-extracted-files</td></tr>
+        <tr><th>Short Description</th><td>Expected extracted files</td></tr>
+        <tr><th>Full Description</th><td>Files appearing in the source archive that are expected to be extracted.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                expected-extracted-files, telemetry
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+
+    <h2>Rules</h2>
+    
+    <table>
+        <tr><th>ID</th><td>py/use-of-input</td></tr>
+        <tr><th>Name</th><td>py/use-of-input</td></tr>
+        <tr><th>Short Description</th><td>'input' function used in Python 2</td></tr>
+        <tr><th>Full Description</th><td>The built-in function 'input' is used which, in Python 2, can allow arbitrary code to be run.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, correctness, security/cwe/cwe-94, security/cwe/cwe-95
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                The built-in function 'input' is used which, in Python 2, can allow arbitrary code to be run.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/use-of-input
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                'input' function used in Python 2
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                9.8
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>sub-severity:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/bind-socket-all-network-interfaces</td></tr>
+        <tr><th>Name</th><td>py/bind-socket-all-network-interfaces</td></tr>
+        <tr><th>Short Description</th><td>Binding a socket to all network interfaces</td></tr>
+        <tr><th>Full Description</th><td>Binding a socket to all interfaces opens it up to traffic from any IPv4 address and is therefore associated with security risks.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-200
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Binding a socket to all interfaces opens it up to traffic from any IPv4 address
+ and is therefore associated with security risks.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/bind-socket-all-network-interfaces
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Binding a socket to all network interfaces
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                6.5
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>sub-severity:</strong>
+                            
+                                low
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/incomplete-hostname-regexp</td></tr>
+        <tr><th>Name</th><td>py/incomplete-hostname-regexp</td></tr>
+        <tr><th>Short Description</th><td>Incomplete regular expression for hostnames</td></tr>
+        <tr><th>Full Description</th><td>Matching a URL or hostname against a regular expression that contains an unescaped dot as part of the hostname might match more hostnames than expected.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                correctness, security, external/cwe/cwe-020
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Matching a URL or hostname against a regular expression that contains an unescaped dot as part of the hostname might match more hostnames than expected.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/incomplete-hostname-regexp
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Incomplete regular expression for hostnames
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                warning
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                7.8
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/incomplete-url-substring-sanitization</td></tr>
+        <tr><th>Name</th><td>py/incomplete-url-substring-sanitization</td></tr>
+        <tr><th>Short Description</th><td>Incomplete URL substring sanitization</td></tr>
+        <tr><th>Full Description</th><td>Security checks on the substrings of an unparsed URL are often vulnerable to bypassing.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                correctness, security, external/cwe/cwe-20
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Security checks on the substrings of an unparsed URL are often vulnerable to bypassing.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/incomplete-url-substring-sanitization
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Incomplete URL substring sanitization
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                warning
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                7.8
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/overly-large-range</td></tr>
+        <tr><th>Name</th><td>py/overly-large-range</td></tr>
+        <tr><th>Short Description</th><td>Overly permissive regular expression range</td></tr>
+        <tr><th>Full Description</th><td>Overly permissive regular expression ranges match a wider range of characters than intended. This may allow an attacker to bypass a filter or sanitizer.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                correctness, security, external/cwe/cwe-020
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Overly permissive regular expression ranges match a wider range of characters than intended.
+              This may allow an attacker to bypass a filter or sanitizer.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/overly-large-range
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Overly permissive regular expression range
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                warning
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                5.0
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/path-injection</td></tr>
+        <tr><th>Name</th><td>py/path-injection</td></tr>
+        <tr><th>Short Description</th><td>Uncontrolled data used in path expression</td></tr>
+        <tr><th>Full Description</th><td>Accessing paths influenced by users can allow an attacker to access unexpected resources.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                correctness, security, external/cwe/cwe-022, external/cwe/cwe-023, external/cwe/cwe-036, external/cwe/cwe-073, external/cwe/cwe-099
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Accessing paths influenced by users can allow an attacker to access unexpected resources.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/path-injection
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                path-problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Uncontrolled data used in path expression
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                7.5
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>sub-severity:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/command-line-injection</td></tr>
+        <tr><th>Name</th><td>py/command-line-injection</td></tr>
+        <tr><th>Short Description</th><td>Uncontrolled command line</td></tr>
+        <tr><th>Full Description</th><td>Using externally controlled strings in a command line may allow a malicious user to change the meaning of the command.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                correctness, security, external/cwe/cwe-078, external/cwe/cwe-088
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Using externally controlled strings in a command line may allow a malicious
+              user to change the meaning of the command.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/command-line-injection
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                path-problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Uncontrolled command line
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                9.8
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>sub-severity:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/reflective-xss</td></tr>
+        <tr><th>Name</th><td>py/reflective-xss</td></tr>
+        <tr><th>Short Description</th><td>Reflected server-side cross-site scripting</td></tr>
+        <tr><th>Full Description</th><td>Writing user input directly to a web page allows for a cross-site scripting vulnerability.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-079, external/cwe/cwe-116
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Writing user input directly to a web page
+              allows for a cross-site scripting vulnerability.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/reflective-xss
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                path-problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Reflected server-side cross-site scripting
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                6.1
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>sub-severity:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/sql-injection</td></tr>
+        <tr><th>Name</th><td>py/sql-injection</td></tr>
+        <tr><th>Short Description</th><td>SQL query built from user-controlled sources</td></tr>
+        <tr><th>Full Description</th><td>Building a SQL query from user-controlled sources is vulnerable to insertion of malicious SQL code by the user.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-089
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Building a SQL query from user-controlled sources is vulnerable to insertion of
+              malicious SQL code by the user.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/sql-injection
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                path-problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                SQL query built from user-controlled sources
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                8.8
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/ldap-injection</td></tr>
+        <tr><th>Name</th><td>py/ldap-injection</td></tr>
+        <tr><th>Short Description</th><td>LDAP query built from user-controlled sources</td></tr>
+        <tr><th>Full Description</th><td>Building an LDAP query from user-controlled sources is vulnerable to insertion of malicious LDAP code by the user.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-090
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Building an LDAP query from user-controlled sources is vulnerable to insertion of
+              malicious LDAP code by the user.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/ldap-injection
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                path-problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                LDAP query built from user-controlled sources
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                9.8
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/code-injection</td></tr>
+        <tr><th>Name</th><td>py/code-injection</td></tr>
+        <tr><th>Short Description</th><td>Code injection</td></tr>
+        <tr><th>Full Description</th><td>Interpreting unsanitized user input as code allows a malicious user to perform arbitrary code execution.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-094, external/cwe/cwe-095, external/cwe/cwe-116
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Interpreting unsanitized user input as code allows a malicious user to perform arbitrary
+              code execution.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/code-injection
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                path-problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Code injection
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                9.3
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>sub-severity:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/bad-tag-filter</td></tr>
+        <tr><th>Name</th><td>py/bad-tag-filter</td></tr>
+        <tr><th>Short Description</th><td>Bad HTML filtering regexp</td></tr>
+        <tr><th>Full Description</th><td>Matching HTML tags using regular expressions is hard to do right, and can easily lead to security issues.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                correctness, security, external/cwe/cwe-116, external/cwe/cwe-020, external/cwe/cwe-185, external/cwe/cwe-186
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Matching HTML tags using regular expressions is hard to do right, and can easily lead to security issues.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/bad-tag-filter
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Bad HTML filtering regexp
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                warning
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                7.8
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/stack-trace-exposure</td></tr>
+        <tr><th>Name</th><td>py/stack-trace-exposure</td></tr>
+        <tr><th>Short Description</th><td>Information exposure through an exception</td></tr>
+        <tr><th>Full Description</th><td>Leaking information about an exception, such as messages and stack traces, to an external user can expose implementation details that are useful to an attacker for developing a subsequent exploit.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-209, external/cwe/cwe-497
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Leaking information about an exception, such as messages and stack traces, to an
+              external user can expose implementation details that are useful to an attacker for
+              developing a subsequent exploit.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/stack-trace-exposure
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                path-problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Information exposure through an exception
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                5.4
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/flask-debug</td></tr>
+        <tr><th>Name</th><td>py/flask-debug</td></tr>
+        <tr><th>Short Description</th><td>Flask app is run in debug mode</td></tr>
+        <tr><th>Full Description</th><td>Running a Flask app in debug mode may allow an attacker to run arbitrary code through the Werkzeug debugger.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-215, external/cwe/cwe-489
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Running a Flask app in debug mode may allow an attacker to run arbitrary code through the Werkzeug debugger.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/flask-debug
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Flask app is run in debug mode
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                7.5
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/pam-auth-bypass</td></tr>
+        <tr><th>Name</th><td>py/pam-auth-bypass</td></tr>
+        <tr><th>Short Description</th><td>PAM authorization bypass due to incorrect usage</td></tr>
+        <tr><th>Full Description</th><td>Not using `pam_acct_mgmt` after `pam_authenticate` to check the validity of a login can lead to authorization bypass.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-285
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Not using `pam_acct_mgmt` after `pam_authenticate` to check the validity of a login can lead to authorization bypass.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/pam-auth-bypass
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                path-problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                PAM authorization bypass due to incorrect usage
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                warning
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                8.1
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/paramiko-missing-host-key-validation</td></tr>
+        <tr><th>Name</th><td>py/paramiko-missing-host-key-validation</td></tr>
+        <tr><th>Short Description</th><td>Accepting unknown SSH host keys when using Paramiko</td></tr>
+        <tr><th>Full Description</th><td>Accepting unknown host keys can allow man-in-the-middle attacks.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-295
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Accepting unknown host keys can allow man-in-the-middle attacks.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/paramiko-missing-host-key-validation
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Accepting unknown SSH host keys when using Paramiko
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                7.5
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/clear-text-logging-sensitive-data</td></tr>
+        <tr><th>Name</th><td>py/clear-text-logging-sensitive-data</td></tr>
+        <tr><th>Short Description</th><td>Clear-text logging of sensitive information</td></tr>
+        <tr><th>Full Description</th><td>Logging sensitive information without encryption or hashing can expose it to an attacker.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-312, external/cwe/cwe-359, external/cwe/cwe-532
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Logging sensitive information without encryption or hashing can
+              expose it to an attacker.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/clear-text-logging-sensitive-data
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                path-problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Clear-text logging of sensitive information
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                7.5
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/clear-text-storage-sensitive-data</td></tr>
+        <tr><th>Name</th><td>py/clear-text-storage-sensitive-data</td></tr>
+        <tr><th>Short Description</th><td>Clear-text storage of sensitive information</td></tr>
+        <tr><th>Full Description</th><td>Sensitive information stored without encryption or hashing can expose it to an attacker.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-312, external/cwe/cwe-315, external/cwe/cwe-359
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Sensitive information stored without encryption or hashing can expose it to an
+              attacker.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/clear-text-storage-sensitive-data
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                path-problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Clear-text storage of sensitive information
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                7.5
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/weak-crypto-key</td></tr>
+        <tr><th>Name</th><td>py/weak-crypto-key</td></tr>
+        <tr><th>Short Description</th><td>Use of weak cryptographic key</td></tr>
+        <tr><th>Full Description</th><td>Use of a cryptographic key that is too small may allow the encryption to be broken.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-326
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Use of a cryptographic key that is too small may allow the encryption to be broken.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/weak-crypto-key
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Use of weak cryptographic key
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                7.5
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/weak-cryptographic-algorithm</td></tr>
+        <tr><th>Name</th><td>py/weak-cryptographic-algorithm</td></tr>
+        <tr><th>Short Description</th><td>Use of a broken or weak cryptographic algorithm</td></tr>
+        <tr><th>Full Description</th><td>Using broken or weak cryptographic algorithms can compromise security.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-327
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Using broken or weak cryptographic algorithms can compromise security.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/weak-cryptographic-algorithm
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Use of a broken or weak cryptographic algorithm
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                warning
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                7.5
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/insecure-default-protocol</td></tr>
+        <tr><th>Name</th><td>py/insecure-default-protocol</td></tr>
+        <tr><th>Short Description</th><td>Default version of SSL/TLS may be insecure</td></tr>
+        <tr><th>Full Description</th><td>Leaving the SSL/TLS version unspecified may result in an insecure default protocol being used.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-327
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Leaving the SSL/TLS version unspecified may result in an insecure
+              default protocol being used.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/insecure-default-protocol
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Default version of SSL/TLS may be insecure
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                warning
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                7.5
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/insecure-protocol</td></tr>
+        <tr><th>Name</th><td>py/insecure-protocol</td></tr>
+        <tr><th>Short Description</th><td>Use of insecure SSL/TLS version</td></tr>
+        <tr><th>Full Description</th><td>Using an insecure SSL/TLS version may leave the connection vulnerable to attacks.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-327
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Using an insecure SSL/TLS version may leave the connection vulnerable to attacks.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/insecure-protocol
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Use of insecure SSL/TLS version
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                warning
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                7.5
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/weak-sensitive-data-hashing</td></tr>
+        <tr><th>Name</th><td>py/weak-sensitive-data-hashing</td></tr>
+        <tr><th>Short Description</th><td>Use of a broken or weak cryptographic hashing algorithm on sensitive data</td></tr>
+        <tr><th>Full Description</th><td>Using broken or weak cryptographic hashing algorithms can compromise security.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-327, external/cwe/cwe-328, external/cwe/cwe-916
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Using broken or weak cryptographic hashing algorithms can compromise security.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/weak-sensitive-data-hashing
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                path-problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Use of a broken or weak cryptographic hashing algorithm on sensitive data
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                warning
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                7.5
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/csrf-protection-disabled</td></tr>
+        <tr><th>Name</th><td>py/csrf-protection-disabled</td></tr>
+        <tr><th>Short Description</th><td>CSRF protection weakened or disabled</td></tr>
+        <tr><th>Full Description</th><td>Disabling or weakening CSRF protection may make the application vulnerable to a Cross-Site Request Forgery (CSRF) attack.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-352
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Disabling or weakening CSRF protection may make the application
+              vulnerable to a Cross-Site Request Forgery (CSRF) attack.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/csrf-protection-disabled
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                CSRF protection weakened or disabled
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                warning
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                8.8
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/insecure-temporary-file</td></tr>
+        <tr><th>Name</th><td>py/insecure-temporary-file</td></tr>
+        <tr><th>Short Description</th><td>Insecure temporary file</td></tr>
+        <tr><th>Full Description</th><td>Creating a temporary file using this method may be insecure.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                external/cwe/cwe-377, security
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Creating a temporary file using this method may be insecure.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/insecure-temporary-file
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Insecure temporary file
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                7.0
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>sub-severity:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/unsafe-deserialization</td></tr>
+        <tr><th>Name</th><td>py/unsafe-deserialization</td></tr>
+        <tr><th>Short Description</th><td>Deserialization of user-controlled data</td></tr>
+        <tr><th>Full Description</th><td>Deserializing user-controlled data may allow attackers to execute arbitrary code.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                external/cwe/cwe-502, security, serialization
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Deserializing user-controlled data may allow attackers to execute arbitrary code.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/unsafe-deserialization
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                path-problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Deserialization of user-controlled data
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                9.8
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>sub-severity:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/url-redirection</td></tr>
+        <tr><th>Name</th><td>py/url-redirection</td></tr>
+        <tr><th>Short Description</th><td>URL redirection from remote source</td></tr>
+        <tr><th>Full Description</th><td>URL redirection based on unvalidated user input may cause redirection to malicious web sites.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-601
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                URL redirection based on unvalidated user input
+              may cause redirection to malicious web sites.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/url-redirection
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                path-problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                URL redirection from remote source
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                6.1
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>sub-severity:</strong>
+                            
+                                low
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/xxe</td></tr>
+        <tr><th>Name</th><td>py/xxe</td></tr>
+        <tr><th>Short Description</th><td>XML external entity expansion</td></tr>
+        <tr><th>Full Description</th><td>Parsing user input as an XML document with external entity expansion is vulnerable to XXE attacks.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-611, external/cwe/cwe-827
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Parsing user input as an XML document with external
+              entity expansion is vulnerable to XXE attacks.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/xxe
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                path-problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                XML external entity expansion
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                9.1
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/xpath-injection</td></tr>
+        <tr><th>Name</th><td>py/xpath-injection</td></tr>
+        <tr><th>Short Description</th><td>XPath query built from user-controlled sources</td></tr>
+        <tr><th>Full Description</th><td>Building a XPath query from user-controlled sources is vulnerable to insertion of malicious Xpath code by the user.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-643
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Building a XPath query from user-controlled sources is vulnerable to insertion of
+              malicious Xpath code by the user.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/xpath-injection
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                path-problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                XPath query built from user-controlled sources
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                9.8
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/polynomial-redos</td></tr>
+        <tr><th>Name</th><td>py/polynomial-redos</td></tr>
+        <tr><th>Short Description</th><td>Polynomial regular expression used on uncontrolled data</td></tr>
+        <tr><th>Full Description</th><td>A regular expression that can require polynomial time to match may be vulnerable to denial-of-service attacks.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-1333, external/cwe/cwe-730, external/cwe/cwe-400
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                A regular expression that can require polynomial time
+              to match may be vulnerable to denial-of-service attacks.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/polynomial-redos
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                path-problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Polynomial regular expression used on uncontrolled data
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                warning
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                7.5
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/redos</td></tr>
+        <tr><th>Name</th><td>py/redos</td></tr>
+        <tr><th>Short Description</th><td>Inefficient regular expression</td></tr>
+        <tr><th>Full Description</th><td>A regular expression that requires exponential time to match certain inputs can be a performance bottleneck, and may be vulnerable to denial-of-service attacks.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-1333, external/cwe/cwe-730, external/cwe/cwe-400
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                A regular expression that requires exponential time to match certain inputs
+              can be a performance bottleneck, and may be vulnerable to denial-of-service
+              attacks.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/redos
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Inefficient regular expression
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                7.5
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/regex-injection</td></tr>
+        <tr><th>Name</th><td>py/regex-injection</td></tr>
+        <tr><th>Short Description</th><td>Regular expression injection</td></tr>
+        <tr><th>Full Description</th><td>User input should not be used in regular expressions without first being escaped, otherwise a malicious user may be able to inject an expression that could require exponential time on certain inputs.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-730, external/cwe/cwe-400
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                User input should not be used in regular expressions without first being escaped,
+              otherwise a malicious user may be able to inject an expression that could require
+              exponential time on certain inputs.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/regex-injection
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                path-problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Regular expression injection
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                7.5
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/xml-bomb</td></tr>
+        <tr><th>Name</th><td>py/xml-bomb</td></tr>
+        <tr><th>Short Description</th><td>XML internal entity expansion</td></tr>
+        <tr><th>Full Description</th><td>Parsing user input as an XML document with arbitrary internal entity expansion is vulnerable to denial-of-service attacks.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-776, external/cwe/cwe-400
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Parsing user input as an XML document with arbitrary internal
+              entity expansion is vulnerable to denial-of-service attacks.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/xml-bomb
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                path-problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                XML internal entity expansion
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                warning
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                7.5
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/full-ssrf</td></tr>
+        <tr><th>Name</th><td>py/full-ssrf</td></tr>
+        <tr><th>Short Description</th><td>Full server-side request forgery</td></tr>
+        <tr><th>Full Description</th><td>Making a network request to a URL that is fully user-controlled allows for request forgery attacks.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-918
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Making a network request to a URL that is fully user-controlled allows for request forgery attacks.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/full-ssrf
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                path-problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Full server-side request forgery
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                9.1
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/nosql-injection</td></tr>
+        <tr><th>Name</th><td>py/nosql-injection</td></tr>
+        <tr><th>Short Description</th><td>NoSQL Injection</td></tr>
+        <tr><th>Full Description</th><td>Building a NoSQL query from user-controlled sources is vulnerable to insertion of malicious NoSQL code by the user.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-943
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Building a NoSQL query from user-controlled sources is vulnerable to insertion of
+              malicious NoSQL code by the user.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/nosql-injection
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                path-problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                NoSQL Injection
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                8.8
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/tarslip</td></tr>
+        <tr><th>Name</th><td>py/tarslip</td></tr>
+        <tr><th>Short Description</th><td>Arbitrary file write during tarfile extraction</td></tr>
+        <tr><th>Full Description</th><td>Extracting files from a malicious tar archive without validating that the destination file path is within the destination directory can cause files outside the destination directory to be overwritten.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-022
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Extracting files from a malicious tar archive without validating that the
+              destination file path is within the destination directory can cause files outside
+              the destination directory to be overwritten.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/tarslip
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                path-problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Arbitrary file write during tarfile extraction
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                medium
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                7.5
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/shell-command-constructed-from-input</td></tr>
+        <tr><th>Name</th><td>py/shell-command-constructed-from-input</td></tr>
+        <tr><th>Short Description</th><td>Unsafe shell command constructed from library input</td></tr>
+        <tr><th>Full Description</th><td>Using externally controlled strings in a command line may allow a malicious user to change the meaning of the command.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                correctness, security, external/cwe/cwe-078, external/cwe/cwe-088, external/cwe/cwe-073
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Using externally controlled strings in a command line may allow a malicious
+              user to change the meaning of the command.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/shell-command-constructed-from-input
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                path-problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Unsafe shell command constructed from library input
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                medium
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                6.3
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/jinja2/autoescape-false</td></tr>
+        <tr><th>Name</th><td>py/jinja2/autoescape-false</td></tr>
+        <tr><th>Short Description</th><td>Jinja2 templating with autoescape=False</td></tr>
+        <tr><th>Full Description</th><td>Using jinja2 templates with 'autoescape=False' can cause a cross-site scripting vulnerability.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-079
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Using jinja2 templates with 'autoescape=False' can
+              cause a cross-site scripting vulnerability.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/jinja2/autoescape-false
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Jinja2 templating with autoescape=False
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                medium
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                6.1
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/log-injection</td></tr>
+        <tr><th>Name</th><td>py/log-injection</td></tr>
+        <tr><th>Short Description</th><td>Log Injection</td></tr>
+        <tr><th>Full Description</th><td>Building log entries from user-controlled data is vulnerable to insertion of forged log entries by a malicious user.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-117
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Building log entries from user-controlled data is vulnerable to
+              insertion of forged log entries by a malicious user.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/log-injection
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                path-problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Log Injection
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                medium
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                7.8
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/request-without-cert-validation</td></tr>
+        <tr><th>Name</th><td>py/request-without-cert-validation</td></tr>
+        <tr><th>Short Description</th><td>Request without certificate validation</td></tr>
+        <tr><th>Full Description</th><td>Making a request without certificate validation can allow man-in-the-middle attacks.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-295
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Making a request without certificate validation can allow man-in-the-middle attacks.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/request-without-cert-validation
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Request without certificate validation
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                medium
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                7.5
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/overly-permissive-file</td></tr>
+        <tr><th>Name</th><td>py/overly-permissive-file</td></tr>
+        <tr><th>Short Description</th><td>Overly permissive file permissions</td></tr>
+        <tr><th>Full Description</th><td>Allowing files to be readable or writable by users other than the owner may allow sensitive information to be accessed.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                external/cwe/cwe-732, security
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Allowing files to be readable or writable by users other than the owner may allow sensitive information to be accessed.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/overly-permissive-file
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Overly permissive file permissions
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                medium
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                warning
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                7.8
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>sub-severity:</strong>
+                            
+                                high
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/hardcoded-credentials</td></tr>
+        <tr><th>Name</th><td>py/hardcoded-credentials</td></tr>
+        <tr><th>Short Description</th><td>Hard-coded credentials</td></tr>
+        <tr><th>Full Description</th><td>Credentials are hard coded in the source code of the application.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-259, external/cwe/cwe-321, external/cwe/cwe-798
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Credentials are hard coded in the source code of the application.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/hardcoded-credentials
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                path-problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Hard-coded credentials
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                medium
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                9.8
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/partial-ssrf</td></tr>
+        <tr><th>Name</th><td>py/partial-ssrf</td></tr>
+        <tr><th>Short Description</th><td>Partial server-side request forgery</td></tr>
+        <tr><th>Full Description</th><td>Making a network request to a URL that is partially user-controlled allows for request forgery attacks.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                security, external/cwe/cwe-918
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                Making a network request to a URL that is partially user-controlled allows for request forgery attacks.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/partial-ssrf
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                path-problem
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Partial server-side request forgery
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>precision:</strong>
+                            
+                                medium
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>problem.severity:</strong>
+                            
+                                error
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>security-severity:</strong>
+                            
+                                9.1
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/summary/lines-of-code</td></tr>
+        <tr><th>Name</th><td>py/summary/lines-of-code</td></tr>
+        <tr><th>Short Description</th><td>Total lines of Python code in the database</td></tr>
+        <tr><th>Full Description</th><td>The total number of lines of Python code across all files, including external libraries and auto-generated files. This is a useful metric of the size of a database. This query counts the lines of code, excluding whitespace or comments.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                summary, telemetry
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                The total number of lines of Python code across all files, including
+   external libraries and auto-generated files. This is a useful metric of the size of a
+   database. This query counts the lines of code, excluding whitespace or comments.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/summary/lines-of-code
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                metric
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Total lines of Python code in the database
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+    <table>
+        <tr><th>ID</th><td>py/summary/lines-of-user-code</td></tr>
+        <tr><th>Name</th><td>py/summary/lines-of-user-code</td></tr>
+        <tr><th>Short Description</th><td>Total lines of user written Python code in the database</td></tr>
+        <tr><th>Full Description</th><td>The total number of lines of Python code from the source code directory, excluding auto-generated files. This query counts the lines of code, excluding whitespace or comments. Note: If external libraries are included in the codebase either in a checked-in virtual environment or as vendored code, that will currently be counted as user written code.</td></tr>
+        <tr><th>Enabled</th><td>True</td></tr>
+        <tr>
+            <th>Properties</th>
+            <td>
+                <ul>
+                    
+                        <li>
+                            <strong>tags:</strong>
+                            
+                                summary, lines-of-code
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>description:</strong>
+                            
+                                The total number of lines of Python code from the source code directory,
+   excluding auto-generated files. This query counts the lines of code, excluding
+   whitespace or comments. Note: If external libraries are included in the codebase
+   either in a checked-in virtual environment or as vendored code, that will currently
+   be counted as user written code.
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>id:</strong>
+                            
+                                py/summary/lines-of-user-code
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>kind:</strong>
+                            
+                                metric
+                            
+                        </li>
+                    
+                        <li>
+                            <strong>name:</strong>
+                            
+                                Total lines of user written Python code in the database
+                            
+                        </li>
+                    
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>

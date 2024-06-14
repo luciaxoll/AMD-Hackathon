@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pipelines for {{ project_name }}</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1, h2 { color: #333; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+        table, th, td { border: 1px solid #ddd; }
+        th, td { padding: 8px; text-align: left; }
+        th { background-color: #f4f4f4; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+    </style>
+</head>
+<body>
+    <h1>Pipelines for {{ project_name }}</h1>
+    <ul>
+        {% for pipeline in pipelines %}
+            <li><a href="/pipeline/{{ pipeline }}">{{ pipeline }}</a></li>
+        {% endfor %}
+    </ul>
+    <form action="/upload_sarif/{{ project_name }}" method="post" enctype="multipart/form-data">
+        <input type="file" name="sarif_file" accept=".sarif">
+        <input type="submit" value="Upload SARIF File">
+      </form>
+</body>
+</html>
