@@ -1,1 +1,1 @@
-# AMD-Hackathon
+# Static Analysis Report Dashboard
